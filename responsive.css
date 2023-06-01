@@ -1,0 +1,270 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color:white beige;
+}
+.navbar{
+    padding: 18px 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid gray;
+}
+
+.right{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+.left{
+    display: flex;
+    align-items: center;
+}
+.left .up{
+    color: #2B2B43;
+    font-size: 40px;
+}
+.left .down{
+    font-size: 40px;
+    color: #4E60FF;
+}
+.navbar-profile img{
+    
+    border: 2px solid #4E60FF;
+    border-radius: 16px;
+    
+}
+.shopping ,.menu{
+    background: #F3F4FF;
+    padding: 20px;
+    gap: 50px;
+    border-radius: 16px;
+}
+.btn{
+    display: none;
+}
+.navbar-menu{
+    display: none;
+}
+.page{
+    padding: 18px 15px;
+    display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+  
+   gap: 20px;
+   
+}
+.settings{
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 100%;
+    gap: 16px;
+    
+}
+.setting-items{
+    display: flex;
+    flex-direction: column;
+    row-gap: 16px;
+}
+.profile-menu-item{
+    padding: 16px;
+    display: flex;
+    background: #FFFFFF;
+    border-radius: 16px;
+    border: 1px solid #EDEEF2;
+    gap: 20px;
+    
+}
+.details{
+    font-weight: 400;
+font-size: 13px;
+line-height: 18px;
+color: #545563;
+}
+.profile-menu-item-icon{
+    background: #EDEEF2;
+border-radius: 12px;
+width: 40px;
+height: 40px;
+}
+.title{
+    padding: 16px 15px;
+    font-weight: 600;
+font-size: 20px;
+line-height: 28px;
+color: #2B2B43;
+}
+.image-responsive{
+    width: 100%;
+    height: auto;
+}
+.w-full{
+    width: 100%;
+}
+.profile-menu-item-text{
+    flex: 1;
+}
+.active{
+    background: #F3F4FF;
+    border: 2px solid #4E60FF;
+border-radius: 16px;
+}
+.account{
+ 
+    padding: 16px;
+    display: flex;
+    flex-direction: column;
+}
+.account-information{
+    border: 1px solid #EDEEF2;
+    border-radius: 16px;
+    padding: 16px;
+}
+.profile-cart{
+    padding: 16px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.edit-profile{
+    border-radius: 8px;
+}
+.avatar-text{
+    padding: 12px;
+    font-weight: 600;
+font-size: 12px;
+line-height: 16px;
+color: #83859C;
+}
+.edit{
+    color: #4E60FF;
+    border: 1px solid #EDEEF2;
+border-radius: 16px;
+padding: 20px;
+}
+.remove{
+    color: #83859C;
+}
+.input-label{
+    font-weight: 600;
+font-size: 12px;
+line-height: 16px;
+color: #545563;
+}
+.input{
+    border: 1px solid #C7C8D2;
+    border-radius: 8px;
+    padding: 10px;
+}
+.information{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+ 
+    
+}
+.check-box{
+display: flex;
+flex-direction: column;
+}
+.check-item{
+    display: flex;
+    gap: 10px;
+    padding: 10px;
+}
+.ckeck-input{
+    font-weight: 400;
+font-size: 14px;
+line-height: 20px;
+color: #2B2B43;
+}
+.check-label{
+    background: #4E60FF;
+border-radius: 4px;
+}
+@media(min-width:1024px) {
+    .navbar{
+        
+        padding: 15px 160px;
+    }
+
+    .menu{
+        display: none;
+    }
+    .btn{
+        display: block;
+    }
+    .left{
+        display: flex;
+        gap: 20px;
+        align-items: center;
+    }
+    .search{
+        padding: 10px;
+        border-radius: 12px;
+        background-color: #EDEEF2;
+        border: none;
+    }
+    .btn{
+        position: relative;
+    }
+    .icon{
+        
+        position:absolute;
+        right: 5px;
+        top: 50%;
+        transform: translateY(-50%);
+        
+    
+      
+    }
+    .navbar-menu{
+        display: flex;
+    gap: 20px;
+    align-items: center;
+
+    }
+    .page{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        padding: 15px 160px;
+    }
+    .setting{
+        width: 280px;
+    }
+    .account{
+        flex: 1;
+       
+    }
+    .boxes{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        
+
+    }
+    .info-box{
+        width: 50%;
+
+    }
+    .check-item{
+        width: 50%;
+    }
+    .button{
+        display: flex;
+        
+    }
+    .btn-log{
+        color: #FF5C60;
+        border: 1px solid #EDEEF2;
+border-radius: 16px;
+    }
+
+}
